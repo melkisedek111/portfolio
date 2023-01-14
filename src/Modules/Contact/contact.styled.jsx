@@ -89,11 +89,6 @@ export const ContactForm = styled.div`
 `;
 
 export const ContactFields = styled.div`
-	display: grid;
-	grid-template-columns: 70% 30%;
-	gap: 20px;
-	height: 100%;
-
 	@media ${CSS_CONSTANTS.DEVICES.tablet} {
 		display: flex;
 		flex-direction: column-reverse;
@@ -101,10 +96,12 @@ export const ContactFields = styled.div`
 `;
 
 export const ContactIconContainer = styled.div`
+	margin-top: 50px;
 	/* flex-basis: 30%; */
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	gap: 20px;
+	justify-content: center;
 	@media ${CSS_CONSTANTS.DEVICES.tablet} {
 		justify-content: center;
 	}

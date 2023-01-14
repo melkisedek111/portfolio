@@ -6,8 +6,9 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    command: npm run serve
+    volumes:
+      - /usr/share/nginx/html/index.html
     ports:
-      - 3000:3000
+      - 3000:80
     tty: true
     

@@ -23,7 +23,7 @@ const Main = () => {
 				<MainDetails>
 					<h2>I'm</h2>
 					<h1>Mel Ubalde</h1>
-					<h3>Web Developer & Jr. Software Engineer</h3>
+					<h3>Freelance Web Dev & Jr. Software Engineer</h3>
 				</MainDetails>
 				<LottieContainer>
 					<Lottie animationData={LottieWebHosting} loop={true} />

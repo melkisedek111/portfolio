@@ -64,6 +64,10 @@ const App = () => {
 		}
 	};
 
+	useEffect(() => {
+		document.title = "MUBALDE | Freelance Web Developer"
+	}, [])
+
 	return (
 		<>
 			<ParticleEffect />

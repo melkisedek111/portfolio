@@ -14,7 +14,11 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import ContactIcons from "./Components/ContactIcons.jsx";
+
+
 const Contact = () => {
+
+
 	return (
 		<ContactSection>
 			<ContactContainer>
@@ -22,18 +26,11 @@ const Contact = () => {
 					<h1>
 						<span>C</span>ontact
 					</h1>
-					<h5>Get in touch with us today to discover how we can help your business grow and succeed!</h5>
+					<h5>
+						Get in touch with us today to discover how I can help your business
+						grow and succeed!
+					</h5>
 					<ContactFields>
-						<ContactForm>
-							<div>
-								<Textfield fullWidth placeholder="Name:" />
-								<Textfield fullWidth placeholder="Email:" />
-							</div>
-                            <textarea rows={10} placeholder="Message:"/>
-                            <button>
-                                Send Message
-                            </button>
-						</ContactForm>
 						<ContactIconContainer>
 							<ContactIcons
 								Icon={LocalPhoneIcon}
